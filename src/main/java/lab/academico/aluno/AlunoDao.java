@@ -27,12 +27,36 @@ public class AlunoDao {
 		em.persist(aluno);
 		em.getTransaction().commit();
 		em.close();
+	
 	}
 
 	public static void alterar(String matricula, String nome) {
+		
+		EntityManager em = emf.createEntityManager();
+		em.getTransaction().begin();
+		
+		Aluno aluno = em.find(Aluno.class, matricula);
+		aluno.setMatricula(matricula);
+		aluno.setNome(nome);
+		
+		em.persist(aluno);
+		em.getTransaction().commit();
+		em.close();
 	}
 
 	public static void excluir(String matricula) {
+		//Iniciando a conexão
+		EntityManager em = emf.createEntityManager();
+		em.getTransaction().begin();
+		
+		//Selecionando o aluno pela matricula
+		Aluno aluno = em.find(Aluno.class, matricula);
+		aluno.getMatricula();
+		
+		//Remove o objeto do banco de dados
+		em.remove(aluno);
+		em.getTransaction().commit();
+		em.close();		
 	}
 
 	public static List<Aluno> listar() {

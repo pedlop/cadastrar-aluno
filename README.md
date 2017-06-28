@@ -11,7 +11,7 @@ Laboratório de Desenvolvimento de Software para a Web de 2017/1.
 
 ou
 
-`./mvnw tomcat7:run`
+`mvnw tomcat7:run`
 
 ## Acessando a aplicação
 

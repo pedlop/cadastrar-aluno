@@ -1,12 +1,12 @@
 ----------------------------------------------------------------
-Tue Jun 27 15:24:12 BRT 2017:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-015c-eacb-ef32-0000044fa198 
+Tue Jun 27 23:52:29 BRT 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-015c-ec9d-46ab-0000080bf180 
 on database directory C:\Users\pedro\Documents\Repositorio\cadastrar-aluno\db with class loader WebappClassLoader
   context: /cadastrando-aluno
   delegate: false
   repositories:
 ----------> Parent Classloader:
-ClassRealm[plugin>org.apache.tomcat.maven:tomcat7-maven-plugin:2.2, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+ClassRealm[plugin>org.apache.tomcat.maven:tomcat7-maven-plugin:2.2, parent: java.net.URLClassLoader@3f99bd52]
  
 Loaded from file:/C:/Users/pedro/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar
 java.vendor=Oracle Corporation
