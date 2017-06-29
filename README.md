@@ -15,7 +15,7 @@ ou
 
 ## Acessando a aplicação
 
-Acesse `http://localhost:9090/cadastrando-aluno` em qualquer navegador.
+Acesse `http://localhost:9090/cadastrando-aluno/jpa-aluno/aluno` em qualquer navegador.
 
 ## Como o projeto foi construído
 
